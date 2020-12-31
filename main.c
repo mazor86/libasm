@@ -6,15 +6,12 @@
 /*   By: mazor <mazor@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/28 15:03:57 by mazor             #+#    #+#             */
-/*   Updated: 2020/12/31 20:06:36 by mazor            ###   ########.fr       */
+/*   Updated: 2020/12/31 20:18:59 by mazor            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <string.h>
-
-size_t	ft_strlen(char *str);
-char	*ft_strcpy(char *dst, const char *src);
 
 int		main(void)
 {

@@ -1,11 +1,13 @@
 NAME = libasm.a
 SRC =	ft_strlen.s\
-		ft_strcpy.s
+		ft_strcpy.s\
+		ft_strcmp.s
 FLAGS = -fmacho64
 OBJ = $(SRC:.s=.o)
 REMOVE = rm -f
 AR = ar rcs
 TEST = test
+HEADER = libasm.h
 
 all:	$(NAME)
 
@@ -23,5 +25,5 @@ fclean: clean
 
 re: fclean all
 
-test: $(NAME)
+test: $(NAME) $(HEADER)
 		gcc main.c -L. -lasm -o $@
