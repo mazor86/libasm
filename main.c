@@ -6,7 +6,7 @@
 /*   By: mazor <mazor@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/28 15:03:57 by mazor             #+#    #+#             */
-/*   Updated: 2021/01/01 18:45:06 by mazor            ###   ########.fr       */
+/*   Updated: 2021/01/01 20:33:58 by mazor            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,5 +60,7 @@ int		main(void)
 	printf("compare s1=\"%s\" s2=\"%s\"\n", s4, s2);
 	printf("strcmp = %d\n", strcmp(s4, s2));
 	printf("ft_strcmp = %d\n", ft_strcmp(s4, s2));
+
+	//add tests for WRITE
 	return (0);
 }

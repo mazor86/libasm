@@ -1,7 +1,8 @@
 NAME = libasm.a
 SRC =	ft_strlen.s\
 		ft_strcpy.s\
-		ft_strcmp.s
+		ft_strcmp.s\
+		ft_write.s
 FLAGS = -fmacho64
 OBJ = $(SRC:.s=.o)
 REMOVE = rm -f
