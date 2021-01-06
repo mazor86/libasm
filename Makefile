@@ -29,5 +29,5 @@ fclean: clean
 
 re: fclean all
 
-test: $(NAME) $(HEADER)
+test: $(NAME) $(HEADER) main.c
 		gcc main.c -L. -lasm -o $@
