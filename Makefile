@@ -3,7 +3,8 @@ SRC =	ft_strlen.s\
 		ft_strcpy.s\
 		ft_strcmp.s\
 		ft_write.s\
-		ft_read.s
+		ft_read.s\
+		ft_strdup.s
 		
 FLAGS = -fmacho64
 OBJ = $(SRC:.s=.o)
