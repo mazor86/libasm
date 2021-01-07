@@ -31,3 +31,5 @@ re: fclean all
 
 test: $(NAME) $(HEADER) main.c
 		gcc main.c -L. -lasm -o $@
+
+.PHONY: all bonus clean fclean re
